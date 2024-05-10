@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V16" />
+  <DocumentInfo>
+    <Created>2024-05-10T06:46:43.4529038Z</Created>
+    <ExportSetting>WithDefaults</ExportSetting>
+    <InstalledProducts>
+      <Product>
+        <DisplayName>Totally Integrated Automation Portal</DisplayName>
+        <DisplayVersion>V16</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>TIA Portal Version Control Interface</DisplayName>
+        <DisplayVersion>V16</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>TIA Portal Openness</DisplayName>
+        <DisplayVersion>V16</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>STEP 7 Professional</DisplayName>
+        <DisplayVersion>V16</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>STEP 7 Safety</DisplayName>
+        <DisplayVersion>V16</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>WinCC Professional</DisplayName>
+        <DisplayVersion>V16</DisplayVersion>
+      </Product>
+    </InstalledProducts>
+  </DocumentInfo>
+  <SW.Blocks.InstanceDB ID="0">
+    <AttributeList>
+      <AutoNumber>true</AutoNumber>
+      <DBAccessibleFromOPCUA>true</DBAccessibleFromOPCUA>
+      <HeaderAuthor />
+      <HeaderFamily />
+      <HeaderName />
+      <HeaderVersion>0.1</HeaderVersion>
+      <InstanceOfName>K07_轴组</InstanceOfName>
+      <InstanceOfType>FB</InstanceOfType>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v4">
+  <Section Name="Input" />
+  <Section Name="Output" />
+  <Section Name="InOut" />
+  <Section Name="Static">
+    <Member Name="Axis1Write" Datatype="&quot;F121_SinaParaWrite(SV660F)&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="ID_回原高速" Datatype="DInt" /><Member Name="ID_回原低速" Datatype="DInt" /><Member Name="ID_点动速度" Datatype="DInt" /><Member Name="ID_最高速度" Datatype="DInt" /><Member Name="IM_故障复位" Datatype="Bool" /><Member Name="ID_111报文标识符" Datatype="HW_IO" /></Section><Section Name="Output"><Member Name="OM_准备好" Datatype="Bool" /><Member Name="OM_进行中" Datatype="Bool" /><Member Name="OM_正常完了" Datatype="Bool" /><Member Name="OR_数据Real" Datatype="Real" /><Member Name="OD_数据Dint" Datatype="DInt" /><Member Name="OW_数据格式" Datatype="Int" /><Member Name="OW_故障码" Datatype="Int" /><Member Name="OM_故障" Datatype="Bool" /><Member Name="OW_SFB调用错误" Datatype="Word" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="MT_Time" Datatype="IEC_TIMER" Version="1.0"><Sections><Section Name="None"><Member Name="PT" Datatype="Time" /><Member Name="ET" Datatype="Time" /><Member Name="IN" Datatype="Bool" /><Member Name="Q" Datatype="Bool" /></Section></Sections></Member></Section></Sections></Member>
+    <Member Name="Axis1Pos" Datatype="&quot;F120_SinaPos(SV660F)&quot;" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="IW_手动模式" Datatype="Bool" /><Member Name="IW_运行条件" Datatype="Array[1..8] of Bool" /><Member Name="IM_使能" Datatype="Bool" /><Member Name="IM_回零" Datatype="Bool" /><Member Name="IM_绝对定位" Datatype="Bool" /><Member Name="IM_相对定位" Datatype="Bool" /><Member Name="IM_JOG+" Datatype="Bool" /><Member Name="IM_JOG-" Datatype="Bool" /><Member Name="IM_故障复位" Datatype="Bool" /><Member Name="ID_目标位置" Datatype="DInt" /><Member Name="ID_目标速度" Datatype="DInt" /><Member Name="IW_速度加减倍率%" Datatype="Array[1..3] of Int" /><Member Name="ID_ConfigEpos" Datatype="DWord" /><Member Name="ID_111报文标识符" Datatype="HW_IO" /></Section><Section Name="Output"><Member Name="OM_准备好了" Datatype="Bool" /><Member Name="OM_动作中" Datatype="Bool" /><Member Name="OM_回零完了" Datatype="Bool" /><Member Name="OM_轴报警" Datatype="Bool" /><Member Name="OM_轴错误" Datatype="Bool" /><Member Name="OD_当前位置" Datatype="DInt" /><Member Name="OD_当前速度" Datatype="DInt" /><Member Name="OW_运行模式" Datatype="Int" /><Member Name="OW_EPSW1" Datatype="Word" /><Member Name="OW_EPSW2" Datatype="Word" /><Member Name="OW_轴报警码" Datatype="Word" /><Member Name="OW_轴错误码" Datatype="Word" /><Member Name="OW_库错误码" Datatype="Int" /><Member Name="OW_调用错误码" Datatype="Word" /></Section><Section Name="InOut" /><Section Name="Static"><Member Name="MT_StartChk" Datatype="IEC_TIMER" Version="1.0"><Sections><Section Name="None"><Member Name="PT" Datatype="Time" /><Member Name="ET" Datatype="Time" /><Member Name="IN" Datatype="Bool" /><Member Name="Q" Datatype="Bool" /></Section></Sections></Member></Section></Sections></Member>
+  </Section>
+</Sections></Interface>
+      <Name>K07_轴组_DB</Name>
+      <Number>7</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>zh-CN</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>zh-CN</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.InstanceDB>
+</Document>

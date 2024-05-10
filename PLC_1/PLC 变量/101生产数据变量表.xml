@@ -1,0 +1,833 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V16" />
+  <DocumentInfo>
+    <Created>2024-05-10T06:46:45.9034077Z</Created>
+    <ExportSetting>WithDefaults</ExportSetting>
+    <InstalledProducts>
+      <Product>
+        <DisplayName>Totally Integrated Automation Portal</DisplayName>
+        <DisplayVersion>V16</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>TIA Portal Version Control Interface</DisplayName>
+        <DisplayVersion>V16</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>TIA Portal Openness</DisplayName>
+        <DisplayVersion>V16</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>STEP 7 Professional</DisplayName>
+        <DisplayVersion>V16</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>STEP 7 Safety</DisplayName>
+        <DisplayVersion>V16</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>WinCC Professional</DisplayName>
+        <DisplayVersion>V16</DisplayVersion>
+      </Product>
+    </InstalledProducts>
+  </DocumentInfo>
+  <SW.Tags.PlcTagTable ID="0">
+    <AttributeList>
+      <Name>101生产数据变量表</Name>
+    </AttributeList>
+    <ObjectList>
+      <SW.Tags.PlcTag ID="1" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW700</LogicalAddress>
+          <Name>当前日期年</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="2" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="3" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="4" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW702</LogicalAddress>
+          <Name>当前日期月</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="5" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="6" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="7" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW704</LogicalAddress>
+          <Name>当前日期日</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="8" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="9" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="A" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW706</LogicalAddress>
+          <Name>当前日期时</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="B" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="D" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW708</LogicalAddress>
+          <Name>当前日期分</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="10" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW710</LogicalAddress>
+          <Name>当前日期秒</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="11" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="12" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="13" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW720</LogicalAddress>
+          <Name>开机日期年</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="14" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="15" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="16" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW722</LogicalAddress>
+          <Name>开机日期月</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="17" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="18" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="19" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW724</LogicalAddress>
+          <Name>开机日期日</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="1A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="1B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="1C" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW726</LogicalAddress>
+          <Name>开机日期时</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="1D" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="1E" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="1F" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW728</LogicalAddress>
+          <Name>开机日期分</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="20" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="21" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="22" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW730</LogicalAddress>
+          <Name>开机日期秒</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="23" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="24" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="25" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW740</LogicalAddress>
+          <Name>运行时间(H)</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="26" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="27" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="28" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW742</LogicalAddress>
+          <Name>运行时间(M)</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="29" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="2A" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="2B" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW744</LogicalAddress>
+          <Name>停止时间(H)</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="2C" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="2D" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="2E" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW746</LogicalAddress>
+          <Name>停止时间(M)</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="2F" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="30" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="31" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW748</LogicalAddress>
+          <Name>故障时间(H)</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="32" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="33" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="34" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW750</LogicalAddress>
+          <Name>故障时间(M)</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="35" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="36" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="37" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>DInt</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MD760</LogicalAddress>
+          <Name>生产数量</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="38" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="39" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="3A" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>DInt</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MD764</LogicalAddress>
+          <Name>OK数量</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="3B" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="3C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="3D" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>DInt</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MD768</LogicalAddress>
+          <Name>NG数量</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="3E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="3F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="40" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>DInt</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MD772</LogicalAddress>
+          <Name>累计数量</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="41" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="42" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="43" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW780</LogicalAddress>
+          <Name>实时节拍</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="44" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="45" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="46" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW782</LogicalAddress>
+          <Name>工作节拍</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="47" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="48" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="49" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW732</LogicalAddress>
+          <Name>开机时间(H)</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="4A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="4B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="4C" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW734</LogicalAddress>
+          <Name>开机时间(M)</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="4D" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="4E" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="4F" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW752</LogicalAddress>
+          <Name>稼动率%</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="50" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="51" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="52" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW776</LogicalAddress>
+          <Name>合格率%</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="53" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="54" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="55" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW778</LogicalAddress>
+          <Name>PPM</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="56" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="57" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="58" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW800</LogicalAddress>
+          <Name>设置日期年</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="59" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="5A" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="5B" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW802</LogicalAddress>
+          <Name>设置日期月</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="5C" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="5D" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="5E" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW804</LogicalAddress>
+          <Name>设置日期日</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="5F" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="60" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="61" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW806</LogicalAddress>
+          <Name>设置日期时</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="62" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="63" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="64" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW808</LogicalAddress>
+          <Name>设置日期分</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="65" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="66" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="67" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW810</LogicalAddress>
+          <Name>设置日期秒</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="68" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="69" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="6A" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%M812.0</LogicalAddress>
+          <Name>日期设置通知</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="6B" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="6C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>zh-CN</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+    </ObjectList>
+  </SW.Tags.PlcTagTable>
+</Document>
