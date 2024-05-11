@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V16" />
   <DocumentInfo>
-    <Created>2024-05-10T06:46:42.4539537Z</Created>
+    <Created>2024-05-11T02:56:22.7501852Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -152,17 +152,17 @@
       <Symbol>
         <Component Name="Com_DB" />
         <Component Name="K03" />
-        <Component Name="ST10上托盘离席" />
+        <Component Name="EX_托盘离席" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="31">
       <Symbol>
-        <Component Name="ST10上阻挡上到位" />
+        <Component Name="EX_提升机上到位" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="32">
       <Symbol>
-        <Component Name="SN12_搬出(ST10上)" />
+        <Component Name="SN2_搬出(出口)" />
       </Symbol>
     </Access>
     <Access Scope="LiteralConstant" UId="33">

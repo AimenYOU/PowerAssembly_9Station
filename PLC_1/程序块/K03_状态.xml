@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V16" />
   <DocumentInfo>
-    <Created>2024-05-10T06:46:40.7804637Z</Created>
+    <Created>2024-05-11T02:56:22.0246244Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -7631,7 +7631,9 @@
     </Access>
     <Access Scope="GlobalVariable" UId="44">
       <Symbol>
-        <Component Name="EN_阻挡上到位" />
+        <Component Name="Com_DB" />
+        <Component Name="K03" />
+        <Component Name="ST01上托盘在席" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="45">
@@ -7731,7 +7733,9 @@
     </Access>
     <Access Scope="GlobalVariable" UId="61">
       <Symbol>
-        <Component Name="ST01上阻挡上到位" />
+        <Component Name="Com_DB" />
+        <Component Name="K03" />
+        <Component Name="ST02上托盘在席" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="62">
@@ -7831,7 +7835,9 @@
     </Access>
     <Access Scope="GlobalVariable" UId="78">
       <Symbol>
-        <Component Name="ST02上阻挡上到位" />
+        <Component Name="Com_DB" />
+        <Component Name="K03" />
+        <Component Name="ST03上托盘在席" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="79">
@@ -7931,7 +7937,9 @@
     </Access>
     <Access Scope="GlobalVariable" UId="95">
       <Symbol>
-        <Component Name="ST03上阻挡上到位" />
+        <Component Name="Com_DB" />
+        <Component Name="K03" />
+        <Component Name="ST04上托盘在席" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="96">
@@ -8031,7 +8039,9 @@
     </Access>
     <Access Scope="GlobalVariable" UId="112">
       <Symbol>
-        <Component Name="ST04上阻挡上到位" />
+        <Component Name="Com_DB" />
+        <Component Name="K03" />
+        <Component Name="ST05上托盘在席" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="113">
@@ -8131,7 +8141,9 @@
     </Access>
     <Access Scope="GlobalVariable" UId="129">
       <Symbol>
-        <Component Name="ST05上阻挡上到位" />
+        <Component Name="Com_DB" />
+        <Component Name="K03" />
+        <Component Name="ST06上托盘在席" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="130">
@@ -8231,7 +8243,9 @@
     </Access>
     <Access Scope="GlobalVariable" UId="146">
       <Symbol>
-        <Component Name="ST06上阻挡上到位" />
+        <Component Name="Com_DB" />
+        <Component Name="K03" />
+        <Component Name="ST07上托盘在席" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="147">
@@ -8331,7 +8345,9 @@
     </Access>
     <Access Scope="GlobalVariable" UId="163">
       <Symbol>
-        <Component Name="ST07上阻挡上到位" />
+        <Component Name="Com_DB" />
+        <Component Name="K03" />
+        <Component Name="ST08上托盘在席" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="164">
@@ -8431,7 +8447,9 @@
     </Access>
     <Access Scope="GlobalVariable" UId="180">
       <Symbol>
-        <Component Name="ST08上阻挡上到位" />
+        <Component Name="Com_DB" />
+        <Component Name="K03" />
+        <Component Name="ST09上托盘在席" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="181">
@@ -8504,17 +8522,17 @@
       <Symbol>
         <Component Name="Com_DB" />
         <Component Name="K03" />
-        <Component Name="ST10上托盘离席" />
+        <Component Name="EX_托盘离席" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="193">
       <Symbol>
-        <Component Name="ST10上阻挡上到位" />
+        <Component Name="EX_阻挡上到位" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="194">
       <Symbol>
-        <Component Name="SN12_搬出(ST10上)" />
+        <Component Name="SN2_搬出(出口)" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="195">
@@ -8531,7 +8549,9 @@
     </Access>
     <Access Scope="GlobalVariable" UId="197">
       <Symbol>
-        <Component Name="ST09上阻挡上到位" />
+        <Component Name="Com_DB" />
+        <Component Name="K03" />
+        <Component Name="EX_托盘在席" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="198">
@@ -8563,14 +8583,14 @@
     </Access>
     <Access Scope="GlobalVariable" UId="202">
       <Symbol>
-        <Component Name="SN12_搬入(ST10上)" />
+        <Component Name="SN2_搬入(出口)" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="203">
       <Symbol>
         <Component Name="Com_DB" />
         <Component Name="K03" />
-        <Component Name="ST10上托盘在席" />
+        <Component Name="EX_托盘在席" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="204">
@@ -8580,7 +8600,7 @@
     </Access>
     <Access Scope="GlobalVariable" UId="205">
       <Symbol>
-        <Component Name="SN12_搬入(ST10上)" />
+        <Component Name="SN2_搬入(出口)" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="206">
@@ -8631,7 +8651,9 @@
     </Access>
     <Access Scope="GlobalVariable" UId="214">
       <Symbol>
-        <Component Name="ST10上阻挡上到位" />
+        <Component Name="Com_DB" />
+        <Component Name="K03" />
+        <Component Name="ST11上托盘在席" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="215">
@@ -8731,7 +8753,9 @@
     </Access>
     <Access Scope="GlobalVariable" UId="231">
       <Symbol>
-        <Component Name="ST11上阻挡上到位" />
+        <Component Name="Com_DB" />
+        <Component Name="K03" />
+        <Component Name="ST12上托盘在席" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="232">
@@ -8838,7 +8862,9 @@
     </Access>
     <Access Scope="GlobalVariable" UId="249">
       <Symbol>
-        <Component Name="ST12上阻挡上到位" />
+        <Component Name="Com_DB" />
+        <Component Name="K03" />
+        <Component Name="EX_托盘在席" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="250">
@@ -8882,17 +8908,17 @@
       <Symbol>
         <Component Name="Com_DB" />
         <Component Name="K03" />
-        <Component Name="ST12上托盘在席" />
+        <Component Name="ST09上托盘在席" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="258">
       <Symbol>
-        <Component Name="ST12上阻挡上到位" />
+        <Component Name="ST09上阻挡上到位" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="259">
       <Symbol>
-        <Component Name="SN14_搬入(ST12上)" />
+        <Component Name="SN11_搬入(ST09上)" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="260">
@@ -8916,7 +8942,7 @@
       <Symbol>
         <Component Name="Com_DB" />
         <Component Name="K03" />
-        <Component Name="ST12上托盘离席" />
+        <Component Name="ST09上托盘离席" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="264">
@@ -9087,7 +9113,9 @@
     </Access>
     <Access Scope="GlobalVariable" UId="293">
       <Symbol>
-        <Component Name="ST03下阻挡上到位" />
+        <Component Name="Com_DB" />
+        <Component Name="K03" />
+        <Component Name="ST02下托盘在席" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="294">
@@ -9187,7 +9215,9 @@
     </Access>
     <Access Scope="GlobalVariable" UId="310">
       <Symbol>
-        <Component Name="ST02下阻挡上到位" />
+        <Component Name="Com_DB" />
+        <Component Name="K03" />
+        <Component Name="ST01下托盘在席" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="311">
@@ -9292,7 +9322,9 @@
     </Access>
     <Access Scope="GlobalVariable" UId="328">
       <Symbol>
-        <Component Name="ST02下阻挡上到位" />
+        <Component Name="Com_DB" />
+        <Component Name="K03" />
+        <Component Name="EN_托盘在席" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="329">
@@ -9491,7 +9523,9 @@
     <Part Name="Contact" UId="496" />
     <Part Name="Contact" UId="497" />
     <Part Name="RCoil" UId="498" />
-    <Part Name="Contact" UId="499" />
+    <Part Name="Contact" UId="499">
+      <Negated Name="operand" />
+    </Part>
     <Part Name="PContact" UId="500" />
     <Part Name="SCoil" UId="501" />
     <Part Name="Contact" UId="502" />
@@ -9509,7 +9543,9 @@
     <Part Name="Contact" UId="512" />
     <Part Name="Contact" UId="513" />
     <Part Name="RCoil" UId="514" />
-    <Part Name="Contact" UId="515" />
+    <Part Name="Contact" UId="515">
+      <Negated Name="operand" />
+    </Part>
     <Part Name="PContact" UId="516" />
     <Part Name="SCoil" UId="517" />
     <Part Name="Contact" UId="518" />
@@ -9527,7 +9563,9 @@
     <Part Name="Contact" UId="528" />
     <Part Name="Contact" UId="529" />
     <Part Name="RCoil" UId="530" />
-    <Part Name="Contact" UId="531" />
+    <Part Name="Contact" UId="531">
+      <Negated Name="operand" />
+    </Part>
     <Part Name="PContact" UId="532" />
     <Part Name="SCoil" UId="533" />
     <Part Name="Contact" UId="534" />
@@ -11900,10 +11938,12 @@
         <Component Name="ST01按压延迟" />
       </Symbol>
     </Access>
-    <Access Scope="TypedConstant" UId="25">
-      <Constant>
-        <ConstantValue>T#3s</ConstantValue>
-      </Constant>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="New_HMI_DB" />
+        <Component Name="ParaSet" />
+        <Component Name="PressBtnTime" />
+      </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="26">
       <Symbol>
@@ -11949,10 +11989,12 @@
         <Component Name="ST02按压延迟" />
       </Symbol>
     </Access>
-    <Access Scope="TypedConstant" UId="33">
-      <Constant>
-        <ConstantValue>T#3s</ConstantValue>
-      </Constant>
+    <Access Scope="GlobalVariable" UId="33">
+      <Symbol>
+        <Component Name="New_HMI_DB" />
+        <Component Name="ParaSet" />
+        <Component Name="PressBtnTime" />
+      </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="34">
       <Symbol>
@@ -11998,10 +12040,12 @@
         <Component Name="ST03按压延迟" />
       </Symbol>
     </Access>
-    <Access Scope="TypedConstant" UId="41">
-      <Constant>
-        <ConstantValue>T#3s</ConstantValue>
-      </Constant>
+    <Access Scope="GlobalVariable" UId="41">
+      <Symbol>
+        <Component Name="New_HMI_DB" />
+        <Component Name="ParaSet" />
+        <Component Name="PressBtnTime" />
+      </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="42">
       <Symbol>
@@ -12047,10 +12091,12 @@
         <Component Name="ST04按压延迟" />
       </Symbol>
     </Access>
-    <Access Scope="TypedConstant" UId="49">
-      <Constant>
-        <ConstantValue>T#3s</ConstantValue>
-      </Constant>
+    <Access Scope="GlobalVariable" UId="49">
+      <Symbol>
+        <Component Name="New_HMI_DB" />
+        <Component Name="ParaSet" />
+        <Component Name="PressBtnTime" />
+      </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="50">
       <Symbol>
@@ -12101,10 +12147,12 @@
         <Component Name="ST05按压延迟" />
       </Symbol>
     </Access>
-    <Access Scope="TypedConstant" UId="58">
-      <Constant>
-        <ConstantValue>T#3s</ConstantValue>
-      </Constant>
+    <Access Scope="GlobalVariable" UId="58">
+      <Symbol>
+        <Component Name="New_HMI_DB" />
+        <Component Name="ParaSet" />
+        <Component Name="PressBtnTime" />
+      </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="59">
       <Symbol>
@@ -12150,10 +12198,12 @@
         <Component Name="ST06按压延迟" />
       </Symbol>
     </Access>
-    <Access Scope="TypedConstant" UId="66">
-      <Constant>
-        <ConstantValue>T#3s</ConstantValue>
-      </Constant>
+    <Access Scope="GlobalVariable" UId="66">
+      <Symbol>
+        <Component Name="New_HMI_DB" />
+        <Component Name="ParaSet" />
+        <Component Name="PressBtnTime" />
+      </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="67">
       <Symbol>
@@ -12199,10 +12249,12 @@
         <Component Name="ST07按压延迟" />
       </Symbol>
     </Access>
-    <Access Scope="TypedConstant" UId="74">
-      <Constant>
-        <ConstantValue>T#3s</ConstantValue>
-      </Constant>
+    <Access Scope="GlobalVariable" UId="74">
+      <Symbol>
+        <Component Name="New_HMI_DB" />
+        <Component Name="ParaSet" />
+        <Component Name="PressBtnTime" />
+      </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="75">
       <Symbol>
@@ -12248,10 +12300,12 @@
         <Component Name="ST08按压延迟" />
       </Symbol>
     </Access>
-    <Access Scope="TypedConstant" UId="82">
-      <Constant>
-        <ConstantValue>T#3s</ConstantValue>
-      </Constant>
+    <Access Scope="GlobalVariable" UId="82">
+      <Symbol>
+        <Component Name="New_HMI_DB" />
+        <Component Name="ParaSet" />
+        <Component Name="PressBtnTime" />
+      </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="83">
       <Symbol>
@@ -12302,10 +12356,12 @@
         <Component Name="ST09按压延迟" />
       </Symbol>
     </Access>
-    <Access Scope="TypedConstant" UId="91">
-      <Constant>
-        <ConstantValue>T#3s</ConstantValue>
-      </Constant>
+    <Access Scope="GlobalVariable" UId="91">
+      <Symbol>
+        <Component Name="New_HMI_DB" />
+        <Component Name="ParaSet" />
+        <Component Name="PressBtnTime" />
+      </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="92">
       <Symbol>
@@ -12351,10 +12407,12 @@
         <Component Name="ST10按压延迟" />
       </Symbol>
     </Access>
-    <Access Scope="TypedConstant" UId="99">
-      <Constant>
-        <ConstantValue>T#3s</ConstantValue>
-      </Constant>
+    <Access Scope="GlobalVariable" UId="99">
+      <Symbol>
+        <Component Name="New_HMI_DB" />
+        <Component Name="ParaSet" />
+        <Component Name="PressBtnTime" />
+      </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="100">
       <Symbol>
@@ -12400,10 +12458,12 @@
         <Component Name="ST11按压延迟" />
       </Symbol>
     </Access>
-    <Access Scope="TypedConstant" UId="107">
-      <Constant>
-        <ConstantValue>T#3s</ConstantValue>
-      </Constant>
+    <Access Scope="GlobalVariable" UId="107">
+      <Symbol>
+        <Component Name="New_HMI_DB" />
+        <Component Name="ParaSet" />
+        <Component Name="PressBtnTime" />
+      </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="108">
       <Symbol>
@@ -12449,10 +12509,12 @@
         <Component Name="ST12按压延迟" />
       </Symbol>
     </Access>
-    <Access Scope="TypedConstant" UId="115">
-      <Constant>
-        <ConstantValue>T#3s</ConstantValue>
-      </Constant>
+    <Access Scope="GlobalVariable" UId="115">
+      <Symbol>
+        <Component Name="New_HMI_DB" />
+        <Component Name="ParaSet" />
+        <Component Name="PressBtnTime" />
+      </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="116">
       <Symbol>

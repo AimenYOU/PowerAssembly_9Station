@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V16" />
   <DocumentInfo>
-    <Created>2024-05-10T06:46:41.8289919Z</Created>
+    <Created>2024-05-11T02:56:22.6141889Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -137,22 +137,22 @@
       <Symbol>
         <Component Name="Com_DB" />
         <Component Name="K03" />
-        <Component Name="ST12上托盘在席" />
+        <Component Name="ST09上托盘在席" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="27">
       <Symbol>
-        <Component Name="ST12上阻挡上到位" />
+        <Component Name="ST09上阻挡上到位" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="28">
       <Symbol>
-        <Component Name="SN14_搬入(ST12上)" />
+        <Component Name="SN11_搬入(ST09上)" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="29">
       <Symbol>
-        <Component Name="ST12放行标志" />
+        <Component Name="ST09放行标志" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="30">
@@ -1020,7 +1020,7 @@
     </Access>
     <Access Scope="GlobalVariable" UId="24">
       <Symbol>
-        <Component Name="变频器1反转指令自动" />
+        <Component Name="变频器2反转指令自动" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="25">
@@ -2051,7 +2051,7 @@
           <Access Scope="LiteralConstant">
             <Constant>
               <ConstantType>DInt</ConstantType>
-              <ConstantValue>5</ConstantValue>
+              <ConstantValue>4</ConstantValue>
             </Constant>
           </Access>
         </Component>
@@ -2236,7 +2236,7 @@
           <Access Scope="LiteralConstant">
             <Constant>
               <ConstantType>DInt</ConstantType>
-              <ConstantValue>5</ConstantValue>
+              <ConstantValue>4</ConstantValue>
             </Constant>
           </Access>
         </Component>
@@ -2412,7 +2412,7 @@
     </Access>
     <Access Scope="GlobalVariable" UId="24">
       <Symbol>
-        <Component Name="变频器1正转指令自动" />
+        <Component Name="变频器2正转指令自动" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="25">
@@ -2909,7 +2909,7 @@
     <Access Scope="LiteralConstant" UId="23">
       <Constant>
         <ConstantType>Int</ConstantType>
-        <ConstantValue>625</ConstantValue>
+        <ConstantValue>626</ConstantValue>
       </Constant>
     </Access>
     <Access Scope="GlobalVariable" UId="24">
@@ -2923,7 +2923,7 @@
           <Access Scope="LiteralConstant">
             <Constant>
               <ConstantType>DInt</ConstantType>
-              <ConstantValue>5</ConstantValue>
+              <ConstantValue>4</ConstantValue>
             </Constant>
           </Access>
         </Component>
