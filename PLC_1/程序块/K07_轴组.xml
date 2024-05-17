@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V16" />
   <DocumentInfo>
-    <Created>2024-05-10T06:46:41.2212007Z</Created>
+    <Created>2024-05-11T06:24:44.2871943Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -100,8 +100,11 @@
         <Component Name="Fault_Rest" />
       </Symbol>
     </Access>
-    <Access Scope="GlobalConstant" UId="26">
-      <Constant Name="SV660F~驱动对象_1~标准报文_111_PZD-12_12" />
+    <Access Scope="LiteralConstant" UId="26">
+      <Constant>
+        <ConstantType>HW_IO</ConstantType>
+        <ConstantValue>279</ConstantValue>
+      </Constant>
     </Access>
     <Call UId="27">
       <CallInfo Name="F121_SinaParaWrite(SV660F)" BlockType="FB">
@@ -1597,8 +1600,11 @@
         <ConstantValue>2#11011</ConstantValue>
       </Constant>
     </Access>
-    <Access Scope="GlobalConstant" UId="33">
-      <Constant Name="SV660F~驱动对象_1~标准报文_111_PZD-12_12" />
+    <Access Scope="LiteralConstant" UId="33">
+      <Constant>
+        <ConstantType>HW_IO</ConstantType>
+        <ConstantValue>279</ConstantValue>
+      </Constant>
     </Access>
     <Access Scope="GlobalVariable" UId="34">
       <Symbol>

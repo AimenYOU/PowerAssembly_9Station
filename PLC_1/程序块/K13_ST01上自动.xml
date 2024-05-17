@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V16" />
   <DocumentInfo>
-    <Created>2024-05-10T06:46:41.9029869Z</Created>
+    <Created>2024-05-11T02:56:22.7031889Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -145,7 +145,7 @@
     </Access>
     <Access Scope="GlobalVariable" UId="34">
       <Symbol>
-        <Component Name="SN1_Step(入口)" />
+        <Component Name="SN3_Step(ST01上)" />
       </Symbol>
     </Access>
     <Part Name="Contact" UId="35" />
@@ -338,7 +338,7 @@
     </Access>
     <Access Scope="GlobalVariable" UId="25">
       <Symbol>
-        <Component Name="SN1_Step(入口)" />
+        <Component Name="SN3_Step(ST01上)" />
       </Symbol>
     </Access>
     <Part Name="Contact" UId="26" />
@@ -437,7 +437,7 @@
     </Access>
     <Access Scope="GlobalVariable" UId="25">
       <Symbol>
-        <Component Name="SN1_Step(入口)" />
+        <Component Name="SN3_Step(ST01上)" />
       </Symbol>
     </Access>
     <Part Name="Contact" UId="26" />

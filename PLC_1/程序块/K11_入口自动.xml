@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V16" />
   <DocumentInfo>
-    <Created>2024-05-10T06:46:41.7299924Z</Created>
+    <Created>2024-05-11T02:56:22.535184Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -2000,7 +2000,7 @@
           <Access Scope="LiteralConstant">
             <Constant>
               <ConstantType>DInt</ConstantType>
-              <ConstantValue>5</ConstantValue>
+              <ConstantValue>4</ConstantValue>
             </Constant>
           </Access>
         </Component>
@@ -2185,7 +2185,7 @@
           <Access Scope="LiteralConstant">
             <Constant>
               <ConstantType>DInt</ConstantType>
-              <ConstantValue>5</ConstantValue>
+              <ConstantValue>4</ConstantValue>
             </Constant>
           </Access>
         </Component>
@@ -2858,7 +2858,7 @@
     <Access Scope="LiteralConstant" UId="23">
       <Constant>
         <ConstantType>Int</ConstantType>
-        <ConstantValue>625</ConstantValue>
+        <ConstantValue>626</ConstantValue>
       </Constant>
     </Access>
     <Access Scope="GlobalVariable" UId="24">
@@ -2872,7 +2872,7 @@
           <Access Scope="LiteralConstant">
             <Constant>
               <ConstantType>DInt</ConstantType>
-              <ConstantValue>5</ConstantValue>
+              <ConstantValue>4</ConstantValue>
             </Constant>
           </Access>
         </Component>
@@ -3280,7 +3280,7 @@
     </Access>
     <Access Scope="GlobalVariable" UId="32">
       <Symbol>
-        <Component Name="EN_阻挡上指令自动" />
+        <Component Name="EN_阻挡下指令自动" />
       </Symbol>
     </Access>
     <Part Name="Contact" UId="33" />

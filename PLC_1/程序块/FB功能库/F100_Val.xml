@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V16" />
   <DocumentInfo>
-    <Created>2024-05-10T06:46:42.9059843Z</Created>
+    <Created>2024-05-17T05:47:01.659985Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -78,18 +78,11 @@
     <Member Name="MT_RetChKVir" Datatype="IEC_TIMER" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="zh-CN">回端虚拟延迟</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="PT" Datatype="Time" /><Member Name="ET" Datatype="Time" /><Member Name="IN" Datatype="Bool" /><Member Name="Q" Datatype="Bool" /></Section></Sections></Member>
     <Member Name="MT_AdvTimeOver" Datatype="IEC_TIMER" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="zh-CN">出动作延迟</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="PT" Datatype="Time" /><Member Name="ET" Datatype="Time" /><Member Name="IN" Datatype="Bool" /><Member Name="Q" Datatype="Bool" /></Section></Sections></Member>
     <Member Name="MT_RetTimeOver" Datatype="IEC_TIMER" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="zh-CN">回动作延迟</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="PT" Datatype="Time" /><Member Name="ET" Datatype="Time" /><Member Name="IN" Datatype="Bool" /><Member Name="Q" Datatype="Bool" /></Section></Sections></Member>
+    <Member Name="MT_SenserCrossErro" Datatype="IEC_TIMER" Version="1.0" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="zh-CN">感应器交叉错误判断时间</MultiLanguageText></Comment><Sections><Section Name="None"><Member Name="PT" Datatype="Time" /><Member Name="ET" Datatype="Time" /><Member Name="IN" Datatype="Bool" /><Member Name="Q" Datatype="Bool" /></Section></Sections></Member>
+    <Member Name="M_AdvComm" Datatype="Bool" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="zh-CN">出动作</MultiLanguageText></Comment></Member>
+    <Member Name="M_RetComm" Datatype="Bool" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Comment><MultiLanguageText Lang="zh-CN">回动作</MultiLanguageText></Comment></Member>
   </Section>
   <Section Name="Temp">
-    <Member Name="M_AdvComm" Datatype="Bool">
-      <Comment>
-        <MultiLanguageText Lang="zh-CN">出动作</MultiLanguageText>
-      </Comment>
-    </Member>
-    <Member Name="M_RetComm" Datatype="Bool">
-      <Comment>
-        <MultiLanguageText Lang="zh-CN">回动作</MultiLanguageText>
-      </Comment>
-    </Member>
     <Member Name="M_AdvM" Datatype="Bool">
       <Comment>
         <MultiLanguageText Lang="zh-CN">出指令</MultiLanguageText>
@@ -1211,7 +1204,7 @@
     </Access>
     <Access Scope="LocalVariable" UId="29">
       <Symbol>
-        <Component Name="MT_RetChKVir" />
+        <Component Name="MT_RetChK" />
         <Component Name="Q" />
       </Symbol>
     </Access>
@@ -1222,12 +1215,12 @@
     </Access>
     <Access Scope="LocalVariable" UId="31">
       <Symbol>
-        <Component Name="MT_RetChKVir" />
+        <Component Name="MT_RetChK" />
       </Symbol>
     </Access>
     <Access Scope="LocalVariable" UId="32">
       <Symbol>
-        <Component Name="IW_AdvTime" />
+        <Component Name="IW_RetTime" />
       </Symbol>
     </Access>
     <Access Scope="LocalVariable" UId="33">
@@ -1979,14 +1972,15 @@
         <Component Name="I_RetLS" />
       </Symbol>
     </Access>
-    <Access Scope="LocalVariable" UId="25">
-      <Symbol>
-        <Component Name="M_SenCroErr" />
-      </Symbol>
+    <Access Scope="TypedConstant" UId="25">
+      <Constant>
+        <ConstantValue>T#1S</ConstantValue>
+      </Constant>
     </Access>
     <Access Scope="LocalVariable" UId="26">
       <Symbol>
-        <Component Name="I_Rest" />
+        <Component Name="MT_SenserCrossErro" />
+        <Component Name="Q" />
       </Symbol>
     </Access>
     <Access Scope="LocalVariable" UId="27">
@@ -1996,90 +1990,131 @@
     </Access>
     <Access Scope="LocalVariable" UId="28">
       <Symbol>
+        <Component Name="I_Rest" />
+      </Symbol>
+    </Access>
+    <Access Scope="LocalVariable" UId="29">
+      <Symbol>
+        <Component Name="M_SenCroErr" />
+      </Symbol>
+    </Access>
+    <Access Scope="LocalVariable" UId="30">
+      <Symbol>
         <Component Name="Q_SenCroErr" />
       </Symbol>
     </Access>
-    <Part Name="Contact" UId="29" />
-    <Part Name="Contact" UId="30" />
     <Part Name="Contact" UId="31" />
     <Part Name="Contact" UId="32" />
     <Part Name="Contact" UId="33" />
-    <Part Name="Contact" UId="34">
+    <Part Name="Contact" UId="34" />
+    <Part Name="O" UId="35">
+      <TemplateValue Name="Card" Type="Cardinality">2</TemplateValue>
+    </Part>
+    <Part Name="TON" Version="1.0" UId="36">
+      <Instance Scope="LocalVariable" UId="37">
+        <Component Name="MT_SenserCrossErro" />
+      </Instance>
+      <TemplateValue Name="time_type" Type="Type">Time</TemplateValue>
+    </Part>
+    <Part Name="Contact" UId="38" />
+    <Part Name="Contact" UId="39" />
+    <Part Name="Contact" UId="40">
       <Negated Name="operand" />
     </Part>
-    <Part Name="O" UId="35">
-      <TemplateValue Name="Card" Type="Cardinality">3</TemplateValue>
+    <Part Name="O" UId="41">
+      <TemplateValue Name="Card" Type="Cardinality">2</TemplateValue>
     </Part>
-    <Part Name="Coil" UId="36" />
-    <Part Name="Coil" UId="37" />
+    <Part Name="Coil" UId="42" />
+    <Part Name="Coil" UId="43" />
   </Parts>
   <Wires>
-    <Wire UId="38">
+    <Wire UId="45">
       <Powerrail />
-      <NameCon UId="29" Name="in" />
       <NameCon UId="31" Name="in" />
       <NameCon UId="33" Name="in" />
+      <NameCon UId="38" Name="in" />
+      <NameCon UId="39" Name="in" />
     </Wire>
-    <Wire UId="39">
+    <Wire UId="46">
       <IdentCon UId="21" />
-      <NameCon UId="29" Name="operand" />
-    </Wire>
-    <Wire UId="40">
-      <NameCon UId="29" Name="out" />
-      <NameCon UId="30" Name="in" />
-    </Wire>
-    <Wire UId="41">
-      <IdentCon UId="22" />
-      <NameCon UId="30" Name="operand" />
-    </Wire>
-    <Wire UId="42">
-      <NameCon UId="30" Name="out" />
-      <NameCon UId="35" Name="in1" />
-    </Wire>
-    <Wire UId="43">
-      <IdentCon UId="23" />
       <NameCon UId="31" Name="operand" />
     </Wire>
-    <Wire UId="44">
+    <Wire UId="47">
       <NameCon UId="31" Name="out" />
       <NameCon UId="32" Name="in" />
     </Wire>
-    <Wire UId="45">
-      <IdentCon UId="24" />
+    <Wire UId="48">
+      <IdentCon UId="22" />
       <NameCon UId="32" Name="operand" />
     </Wire>
-    <Wire UId="46">
+    <Wire UId="49">
       <NameCon UId="32" Name="out" />
-      <NameCon UId="35" Name="in2" />
+      <NameCon UId="35" Name="in1" />
     </Wire>
-    <Wire UId="47">
-      <IdentCon UId="25" />
+    <Wire UId="50">
+      <IdentCon UId="23" />
       <NameCon UId="33" Name="operand" />
     </Wire>
-    <Wire UId="48">
+    <Wire UId="51">
       <NameCon UId="33" Name="out" />
       <NameCon UId="34" Name="in" />
     </Wire>
-    <Wire UId="49">
-      <IdentCon UId="26" />
+    <Wire UId="52">
+      <IdentCon UId="24" />
       <NameCon UId="34" Name="operand" />
     </Wire>
-    <Wire UId="50">
-      <NameCon UId="34" Name="out" />
-      <NameCon UId="35" Name="in3" />
-    </Wire>
-    <Wire UId="51">
-      <NameCon UId="35" Name="out" />
-      <NameCon UId="36" Name="in" />
-      <NameCon UId="37" Name="in" />
-    </Wire>
-    <Wire UId="52">
-      <IdentCon UId="27" />
-      <NameCon UId="36" Name="operand" />
-    </Wire>
     <Wire UId="53">
+      <NameCon UId="34" Name="out" />
+      <NameCon UId="35" Name="in2" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="35" Name="out" />
+      <NameCon UId="36" Name="IN" />
+    </Wire>
+    <Wire UId="55">
+      <IdentCon UId="25" />
+      <NameCon UId="36" Name="PT" />
+    </Wire>
+    <Wire UId="56">
+      <NameCon UId="36" Name="ET" />
+      <OpenCon UId="44" />
+    </Wire>
+    <Wire UId="57">
+      <IdentCon UId="26" />
+      <NameCon UId="38" Name="operand" />
+    </Wire>
+    <Wire UId="58">
+      <NameCon UId="38" Name="out" />
+      <NameCon UId="41" Name="in1" />
+    </Wire>
+    <Wire UId="59">
+      <IdentCon UId="27" />
+      <NameCon UId="39" Name="operand" />
+    </Wire>
+    <Wire UId="60">
+      <NameCon UId="39" Name="out" />
+      <NameCon UId="40" Name="in" />
+    </Wire>
+    <Wire UId="61">
       <IdentCon UId="28" />
-      <NameCon UId="37" Name="operand" />
+      <NameCon UId="40" Name="operand" />
+    </Wire>
+    <Wire UId="62">
+      <NameCon UId="40" Name="out" />
+      <NameCon UId="41" Name="in2" />
+    </Wire>
+    <Wire UId="63">
+      <NameCon UId="41" Name="out" />
+      <NameCon UId="42" Name="in" />
+      <NameCon UId="43" Name="in" />
+    </Wire>
+    <Wire UId="64">
+      <IdentCon UId="29" />
+      <NameCon UId="42" Name="operand" />
+    </Wire>
+    <Wire UId="65">
+      <IdentCon UId="30" />
+      <NameCon UId="43" Name="operand" />
     </Wire>
   </Wires>
 </FlgNet></NetworkSource>
