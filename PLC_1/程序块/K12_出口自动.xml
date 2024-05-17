@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V16" />
   <DocumentInfo>
-    <Created>2024-05-11T02:56:22.6141889Z</Created>
+    <Created>2024-05-17T05:47:01.3573496Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -157,7 +157,7 @@
     </Access>
     <Access Scope="GlobalVariable" UId="30">
       <Symbol>
-        <Component Name="ST12屏蔽" />
+        <Component Name="ST09屏蔽" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="31">
